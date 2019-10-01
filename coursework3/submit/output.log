@@ -1,0 +1,1039 @@
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 2: Painting added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 1: Bicycle added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerZ 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 5: Table added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerA
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerA registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerB
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerB registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerC
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerC registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerA 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerA 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerB 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerB 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: openAuction Auctioneer1 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINEST: Lot status changed
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @BuyerA: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @BuyerB: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @SellerY: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: makeBid BuyerA 1 70.00
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @SellerY: 70.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @Auctioneer1: 70.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @BuyerB: 70.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: makeBid BuyerA 1 10.00
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+WARNING: 
+*************************************************************
+Invalid bid!
+*************************************************************
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseTest testRegisterSeller
+INFO: 
+#############################################################
+TESTCASE: testRegisterSeller
+#############################################################
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseTest testViewCatalogue
+INFO: 
+#############################################################
+TESTCASE: testViewCatalogue
+#############################################################
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 2: Painting added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 1: Bicycle added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerZ 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 5: Table added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp viewCatalogue
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: viewCatalog
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp viewCatalogue
+FINE: Catalogue: [
+1: Bicycle (UNSOLD), 
+2: Painting (UNSOLD), 
+5: Table (UNSOLD)]
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseTest testOpenAuction
+INFO: 
+#############################################################
+TESTCASE: testOpenAuction
+#############################################################
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 2: Painting added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 1: Bicycle added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerZ 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 5: Table added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerA
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerA registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerB
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerB registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerC
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerC registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerA 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerA 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerB 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerB 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: openAuction Auctioneer1 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINEST: Lot status changed
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @BuyerA: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @BuyerB: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @SellerY: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseTest testCloseAuctionWithSale
+INFO: 
+#############################################################
+TESTCASE: testCloseAuctionWithSale
+#############################################################
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 2: Painting added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 1: Bicycle added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerZ 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 5: Table added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerA
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerA registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerB
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerB registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerC
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerC registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerA 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerA 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerB 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerB 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: openAuction Auctioneer1 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINEST: Lot status changed
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @BuyerA: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @BuyerB: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @SellerY: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: makeBid BuyerA 1 70.00
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @SellerY: 70.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @Auctioneer1: 70.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @BuyerB: 70.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: makeBid BuyerB 1 100.00
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @SellerY: 100.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @Auctioneer1: 100.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @BuyerA: 100.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp closeAuction
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: closeAuction Auctioneer1 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.MockBankingService transfer
+FINER: From: BB A/C (BB-auth) To: AH A/C Amount: 110.00
+Nov 29, 2018 3:47:18 PM auctionhouse.MockBankingService transfer
+FINER: From: AH A/C (AH-auth) To: SY A/C Amount: 85.00
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService lotSold
+FINER: @BuyerA: lot 1 has sold
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService lotSold
+FINER: @BuyerB: lot 1 has sold
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService lotSold
+FINER: @SellerY: lot 1 has sold
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp closeAuction
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseTest testCloseAuctionWithError
+INFO: 
+#############################################################
+TESTCASE: testCloseAuctionWithNo_Sale
+#############################################################
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp closeAuction
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: closeAuction @Auctioneer2 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp closeAuction
+WARNING: 
+*************************************************************
+Auction does not exists!
+*************************************************************
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseTest testMakeBid
+INFO: 
+#############################################################
+TESTCASE: testMakeBid
+#############################################################
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 2: Painting added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 1: Bicycle added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerZ 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 5: Table added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerA
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerA registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerB
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerB registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerC
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerC registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerA 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerA 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerB 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerB 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: openAuction Auctioneer1 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINEST: Lot status changed
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @BuyerA: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @BuyerB: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @SellerY: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: makeBid BuyerA 1 70.00
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @SellerY: 70.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @Auctioneer1: 70.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @BuyerB: 70.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: makeBid BuyerB 1 100.00
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @SellerY: 100.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @Auctioneer1: 100.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @BuyerA: 100.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseTest testRegisterBuyer
+INFO: 
+#############################################################
+TESTCASE: testRegisterBuyer
+#############################################################
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 2: Painting added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 1: Bicycle added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerZ 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 5: Table added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerA
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerA registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerB
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerB registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerC
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerC registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseTest testRegisterSellerDuplicateNames
+INFO: 
+#############################################################
+TESTCASE: testRegisterSellerDuplicateNames
+#############################################################
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+WARNING: 
+*************************************************************
+SellerY is existing!
+*************************************************************
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 2: Painting added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 1: Bicycle added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerZ 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 5: Table added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+WARNING: 
+*************************************************************
+Key number 2 is existing! Try another number!
+*************************************************************
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseTest testCloseAuctionWithNo_Sale
+INFO: 
+#############################################################
+TESTCASE: testCloseAuctionWithNo_Sale
+#############################################################
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 2: Painting added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 1: Bicycle added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerZ 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 5: Table added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerA
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerA registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerB
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerB registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerC
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerC registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerA 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerA 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerB 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerB 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: openAuction Auctioneer1 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINEST: Lot status changed
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @BuyerA: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @BuyerB: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService auctionOpened
+FINER: @SellerY: Auction of lot 1 opened
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: makeBid BuyerA 1 70.00
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @SellerY: 70.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @Auctioneer1: 70.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService bidAccepted
+FINER: @BuyerB: 70.00 bid on lot 1
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp makeBid
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp closeAuction
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: closeAuction @Auctioneer1 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp closeAuction
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: No satisfy hammerPrice, lot: 1: Bicycle UNSOLD
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService lotUnsold
+FINER: @BuyerA: lot 1 has not sold
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService lotUnsold
+FINER: @BuyerB: lot 1 has not sold
+Nov 29, 2018 3:47:18 PM auctionhouse.MockMessagingService lotUnsold
+FINER: @SellerY: lot 1 has not sold
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp closeAuction
+FINEST: message has sent
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseTest testAddLot
+INFO: 
+#############################################################
+TESTCASE: testAddLot
+#############################################################
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 2: Painting added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 1: Bicycle added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerZ 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 5: Table added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: openAuction Auctioneer1 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp openAuction
+WARNING: 
+*************************************************************
+Invalid lot!
+*************************************************************
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseTest testNoteInterest
+INFO: 
+#############################################################
+TESTCASE: testNoteInterest
+#############################################################
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerY
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerY registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerSeller SellerZ
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerSeller
+FINER: SellerZ registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 2: Painting added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerY 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 1: Bicycle added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: addLot SellerZ 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp addLot
+FINER: lot 5: Table added succeed!
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerA
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerA registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerB
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerB registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: registerBuyer BuyerC
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp registerBuyer
+FINER: BuyerC registered
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerA 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerA 5
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerB 1
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: noteInterest BuyerB 2
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp noteInterest
+FINER: Intrested added
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseTest testEmptyCatalogue
+INFO: 
+#############################################################
+TESTCASE: emptyLotStore
+#############################################################
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp viewCatalogue
+FINE: 
+-------------------------------------------------------------
+MESSAGE IN: viewCatalog
+-------------------------------------------------------------
+Nov 29, 2018 3:47:18 PM auctionhouse.AuctionHouseImp viewCatalogue
+FINE: Catalogue: []
+TEST RESULTS
+Number of tests run: 22
+ALL TESTS PASSED
